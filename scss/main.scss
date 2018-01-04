@@ -1,32 +1,42 @@
 @import 'custom';
 @import '../node_modules/bootstrap/scss/bootstrap';
 
-body {
-  padding: 2rem 0;
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
 }
 
 // Responsive typography sizes using Bootstrap mixins for the media querries
 html {
-  font-size: 14px;
+  font-size: 18px;
 }
 
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 16px;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 20px;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 28px;
-  }
-}
+// @include media-breakpoint-up(sm) {
+//   html {
+//     font-size: 16px;
+//   }
+// }
+//
+// @include media-breakpoint-up(md) {
+//   html {
+//     font-size: 20px;
+//   }
+// }
+//
+// @include media-breakpoint-up(lg) {
+//   html {
+//     font-size: 28px;
+//   }
+// }
 
 .header-subtle {
   @extend .text-warning;
