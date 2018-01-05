@@ -1,2 +1,13 @@
 @import 'custom';
 @import '../node_modules/bootstrap/scss/bootstrap';
+
+
+div{
+  border: 1px solid black;
+}
+
+.prof-card img{
+  width:100%;
+  margin: 0 auto;
+  vertical-align: middle;
+}
