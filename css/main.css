@@ -5560,7 +5560,9 @@ div {
   margin: 0 auto;
   vertical-align: middle; }
 
-.prof-card h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  font-size: 30px45; }
+.prof-card {
+  text-align: center; }
+  .prof-card h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px; }
