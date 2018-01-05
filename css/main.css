@@ -5559,3 +5559,8 @@ div {
   width: 100%;
   margin: 0 auto;
   vertical-align: middle; }
+
+.prof-card h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 30px45; }
