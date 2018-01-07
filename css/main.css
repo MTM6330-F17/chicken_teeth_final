@@ -5552,15 +5552,83 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-div {
-  border: 1px solid black; }
+.container-fluid {
+  background-color: #EFEFEF; }
+  .container-fluid .prof-card-info, .container-fluid .course-info-content {
+    padding: 30px 20px 15px 20px; }
+  .container-fluid .prof-card img {
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    border-radius: 5px 5px 0 0; }
 
-.prof-card img {
-  width: 100%;
-  margin: 0 auto;
-  vertical-align: middle; }
+.prof-card, .course-info {
+  background-color: white;
+  text-align: left;
+  margin: 20px 0 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .prof-card h1, .course-info h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #EF694F;
+    margin: 15px 0 20px 0; }
+  .prof-card h2, .course-info h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: #90B0A3;
+    margin: 20px 0 10px 0; }
+  .prof-card h3, .course-info h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black; }
+  .prof-card h4, .course-info h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: black; }
+  .prof-card p, .course-info p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black; }
+  .prof-card ul, .course-info ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black; }
 
-.prof-card h1 {
+.contact-icons {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 22px; }
+  .contact-icons i {
+    color: #90B0A3;
+    padding: 0 5px 0 5px; }
+
+.full-schedule-button {
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: #EF694F;
   font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  font-size: 30px45; }
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 8px 22px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.full-schedule-button:hover {
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.19);
+  cursor: pointer; }
+
+@media (min-width: 576px) {
+  .prof-card {
+    margin-left: 40px; }
+  .course-info-content {
+    margin: 0px 30px; } }
