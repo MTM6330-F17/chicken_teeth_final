@@ -1,21 +1,68 @@
 
+$orange: #EF694F;
+$sage: #90B0A3;
+$off-white: #FFFFEA;
+$dark-grey: #303337;
+$light-grey: #EFEFEF;
 
-div{
-  border: 1px solid black;
+.container-fluid {
+  background-color: $light-grey;
+
+  .prof-card-info, .course-info-content{
+    padding: 30px 20px 15px 20px; ;
+  }
+  .prof-card img{
+    width:100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    border-radius: 5px 5px 0 0;
+  }
 }
 
 
 
-.prof-card img{
-  width:100%;
-  margin: 0 auto;
-  vertical-align: middle;
+.prof-card, .course-info{
+  background-color: white;
+  text-align: left;
+  margin: 20px 0 20px 0 ;
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  h1{font-family: 'Roboto', sans-serif; font-weight: 600; font-size: 35px; color: $orange;margin:15px 0 20px 0;}
+  h2{font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 23px; color: $sage; margin:20px 0 10px 0;}
+  h3{font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 18px; color: black;}
+  h4{font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 25px; color: black;}
+  p{font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 16px;  color: black;}
+  ul{font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 16px; color: black;}
 }
 
-.prof-card{
+.contact-icons {text-align: center; margin-bottom:10px;font-size: 22px; i{color:$sage; padding:0 5px 0 5px}}
+
+.full-schedule-button{
   text-align: center;
-  h1{font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 25px;}
-  h2{}
-  h3{}
-  h4{}
-}
+  background-color: $orange;
+  font-family: 'Roboto', sans-serif;
+  color: white; font-weight: 100;
+  font-size: 16px;
+  padding: 8px 22px;
+  border-radius: 15px;
+  margin-bottom: 10px;}
+
+
+
+
+
+
+@include media-breakpoint-up(sm) {
+
+  .prof-card{
+    margin-left: 40px;
+  }
+
+  .course-info-content{
+    margin: 0px 30px;
+  }
+ }
+
+  // @include media-breakpoint-up(md) { ... }
+  // @include media-breakpoint-up(lg) { ... }
+  // @include media-breakpoint-up(xl) { ... }
