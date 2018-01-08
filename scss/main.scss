@@ -3,16 +3,114 @@
 
 header {
   padding: 154px 0 100px;
+  background-color: $orange;
 }
 
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
+body {
+  background-color: #EFEFEF;
+}
+
+h2 {
+  width: 100%;
+  color: $orange;
+}
+
+.overview-list {
+  list-style: none;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.overview-list li {
+  margin-bottom: 10px;
+}
+
+.aceyear {
+  color: black;
+}
+
+h5 {
+  color: $orange;
+}
+
+.fees ul {
+  list-style: none;
+}
+
+strong {
+  color: $sage;
+}
+
+h4 {
+  color: $sage;
+}
+
+.obj-list {
+  list-style: none;
+}
+
+.obj-list li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+.obj-list li::before {
+  content: "\2022";
+  color: $orange;
+  padding-right: 5px;
+}
+
+.divider {
+  background-color: $orange;
+  padding: 50px;
+}
+
+.fst {
+  color: $orange;
 }
 
 section {
-  padding: 150px 0;
+  padding: 50px 0;
+}
+
+.courses .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.courses h2 {
+  font-weight: 400;
+}
+.courses .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+footer {
+  background-color: $orange;
+}
+
+.social-icons {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+
+.social-icons li {
+  display: inline;
+  color: white;
+  list-style: none;
+}
+
+.social-icon {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 45px;
+}
+
+.social-link:hover {
+  text-decoration: none;
+  color: white;
 }
 
 // Responsive typography sizes using Bootstrap mixins for the media querries
