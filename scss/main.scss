@@ -6,6 +6,10 @@ header {
   background-color: $orange;
 }
 
+.navbar {
+  background-color: $dark-grey;
+}
+
 body {
   background-color: #EFEFEF;
 }
@@ -83,6 +87,10 @@ section {
 .courses .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+}
+
+input {
+  width: 90%;
 }
 
 footer {

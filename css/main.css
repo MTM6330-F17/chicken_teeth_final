@@ -5556,6 +5556,9 @@ header {
   padding: 154px 0 100px;
   background-color: #EF694F; }
 
+.navbar {
+  background-color: #303337; }
+
 body {
   background-color: #EFEFEF; }
 
@@ -5618,6 +5621,9 @@ section {
 .courses .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem; }
+
+input {
+  width: 90%; }
 
 footer {
   background-color: #EF694F; }
