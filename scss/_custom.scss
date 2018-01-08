@@ -3,6 +3,11 @@ $orange: #EF694F;
 $sage: #90B0A3;
 $off-white: #FFFFEA;
 $dark-grey: #303337;
-$light-grey: #EFEFEF
+$light-grey: #EFEFEF;
 
 // Override bootstrap default
+$primary: $orange;
+.btn-primary{
+  background-color: $orange !important;
+  border-color: $orange !important;
+}
