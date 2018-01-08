@@ -5467,7 +5467,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .text-lowercase {
   text-transform: lowercase !important; }
 
-.text-uppercase, .header-subtle {
+.text-uppercase {
   text-transform: uppercase !important; }
 
 .text-capitalize {
@@ -5512,10 +5512,10 @@ a.text-success:focus, a.text-success:hover {
 a.text-info:focus, a.text-info:hover {
   color: #117a8b !important; }
 
-.text-warning, .header-subtle {
+.text-warning {
   color: #ffc107 !important; }
 
-a.text-warning:focus, a.header-subtle:focus, a.text-warning:hover, a.header-subtle:hover {
+a.text-warning:focus, a.text-warning:hover {
   color: #d39e00 !important; }
 
 .text-danger {
@@ -5650,8 +5650,3 @@ footer {
 
 html {
   font-size: 18px; }
-
-.header-subtle {
-  font-size: 1.2rem;
-  letter-spacing: .12em;
-  opacity: .6; }
