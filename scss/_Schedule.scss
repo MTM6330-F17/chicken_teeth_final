@@ -1,0 +1,29 @@
+$off-white: #FFFFEA;
+$dark-grey: #303337;
+$light-grey: #EFEFEF;
+$white: #FFFFFF;
+$orange: #EF694F;
+$sage: #90B0A3;
+
+
+
+#table-schedule{
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+table {
+  //margin-top: 5%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.classes {
+  color: $orange;
+}
+
+.schedh2 {font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  color: $sage;
+  margin:125px 0 10px 0;
+}
