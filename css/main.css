@@ -5556,6 +5556,9 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+.navbar {
+  background-color: #303337; }
+
 .container-fluid {
   background-color: #EFEFEF; }
   .container-fluid .prof-card-info, .container-fluid .course-info-content {
@@ -5566,10 +5569,14 @@ a.text-dark:focus, a.text-dark:hover {
     vertical-align: middle;
     border-radius: 5px 5px 0 0; }
 
+.prof-card {
+  margin-top: -100px; }
+
 .prof-card, .course-info {
   background-color: white;
   text-align: left;
   margin: 20px 0 20px 0;
+  margin-top: 100px;
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
   .prof-card h1, .course-info h1 {
@@ -5633,10 +5640,29 @@ a.text-dark:focus, a.text-dark:hover {
 
 @media (min-width: 576px) {
   .prof-card {
-    margin-left: 40px; }
+    margin-right: 40px; }
   .course-info-content {
-    margin: 0px 30px; } }
-<<<<<<< HEAD
+    margin: 0px 30px; }
+  .prof-card, .course-info {
+    margin-bottom: 30px;
+    margin-top: 100px; } }
+
+#table-schedule {
+  margin-bottom: 30px;
+  margin-top: 50px; }
+
+table {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+.classes {
+  color: #EF694F; }
+
+.schedh2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  color: #90B0A3;
+  margin: 125px 0 10px 0; }
 
 header {
   padding: 154px 0 100px;
@@ -5752,5 +5778,3 @@ input {
 
 html {
   font-size: 18px; }
-=======
->>>>>>> master
