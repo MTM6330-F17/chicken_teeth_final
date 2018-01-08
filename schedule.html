@@ -9,6 +9,11 @@
     >
     <title>Class Schedule</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -17,10 +22,34 @@
 
   <body>
 
+    <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+          <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html"> <img src="images/AC_logo.png" alt="AC Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="index.html"> Back </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+    <!-- END Navigation -->
+
+
 <div class="container">
-    <table class="table table-hover table-bordered table-striped">
+  <div class="row justify-content-center no-gutters">
+    <div class="col-12">
+
+<h2>Class Schedule</h2>
+    <table class="table table-hover table-bordered table-striped table-responsive" id="table-schedule">
   <thead>
-    <tr>
+    <tr class="classes">
       <th scope="col">Classes</th>
       <th scope="col">010</th>
       <th scope="col">020</th>
@@ -29,19 +58,19 @@
   </thead>
   <tbody>
     <tr>
-      <th scope="row">MTM6300 - Motion Graphics</th>
+      <th scope="row"><a href="motiongraphics.html" target="_blank">MTM6300 - Motion Graphics</a></th>
       <td>Tuesdays, T308 - 5PM to 8PM</td>
       <td>Wednesdays, T308 - 5PM to 8PM</td>
       <td>Thursdays, T308 - 5PM to 8PM</td>
     </tr>
     <tr>
-      <th scope="row">MTM6330 - Web Production</th>
+      <th scope="row"><a href="webproduction.html" target="_blank">MTM6330 - Web Production</a></th>
       <td>Mondays, T308 - 1PM to 4PM</td>
       <td>Tuesdays, T229 - 1PM to 4PM</td>
       <td>Fridays, T308 - 9AM to 12PM</td>
     </tr>
     <tr>
-      <th scope="row">MTM6331 - Server Side Web Development</th>
+      <th scope="row"><a href="server-side.html" target="_blank">MTM6331 - Server Side Web Development</a></th>
       <td>Wednesdays, T229 - 12PM to 3PM</td>
       <td>Tuesdays, T229 - 8AM to 11AM</td>
       <td>Fridays, T308 - 1PM to 4PM</td>
@@ -61,6 +90,20 @@
   </tbody>
 </table>
 </div>
+</div>
+</div>
+
+<footer>
+<div class="footer">
+<div class="social-media-links">
+<a href="https://facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+<a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+</div>
+<div class="copyright-text">
+<p>Algonquin College Rights Reserved</p>
+</div>
+</div>
+</footer>
 
 
     <!-- Optional JavaScript -->
