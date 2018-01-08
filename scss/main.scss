@@ -1,4 +1,199 @@
 @import 'custom';
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import '_CoursesProfsScreen';
+<<<<<<< HEAD
 @import '_Schedule.scss'
+=======
+
+header {
+  padding: 154px 0 100px;
+  background-color: $orange;
+}
+
+.navbar {
+  background-color: $dark-grey;
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+.jumbotron {
+  margin-top: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 0px 2px 13px black;
+}
+
+.divider {
+  background-image: url(https://i.imgur.com/iYaYtIt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  width: 100%;
+  color: $orange;
+}
+
+.overview-list {
+  list-style: none;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.overview-list li {
+  margin-bottom: 10px;
+}
+
+.aceyear {
+  color: black;
+}
+
+h5 {
+  color: $orange;
+}
+
+.fees ul {
+  list-style: none;
+}
+
+strong {
+  color: $sage;
+}
+
+h4 {
+  color: $sage;
+}
+
+.card {
+  text-align: center;
+}
+
+.obj-list {
+  list-style: none;
+}
+
+.obj-list li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+.obj-list li::before {
+  content: "\2022";
+  color: $orange;
+  padding-right: 5px;
+}
+
+.divider {
+  background-color: $orange;
+  padding: 50px;
+}
+
+.fst {
+  color: $orange;
+}
+
+section {
+  padding: 50px 0;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.courses .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.courses h2 {
+  font-weight: 400;
+}
+.courses .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+input {
+  width: 90%;
+}
+
+// footer {
+//   background-color: $orange;
+// }
+//
+// .social-icons {
+//   display: inline-block;
+//   list-style: none;
+//   text-decoration: none;
+// }
+//
+// .social-icons li {
+//   display: inline;
+//   color: white;
+//   list-style: none;
+// }
+//
+// .social-icon {
+//   text-decoration: none;
+//   list-style: none;
+//   color: white;
+//   font-size: 45px;
+// }
+//
+// .social-link:hover {
+//   text-decoration: none;
+//   color: white;
+// }
+
+//FOOTER STYLING
+body{
+  position: relative;
+}
+
+.footer{
+ margin-top: 50px;
+ background: $orange;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ padding: 1rem;
+ text-align: center;
+ color: white;
+ font-size: 15px;
+}
+
+.social-media-links i{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+
+
+input {
+  width: 90%;
+}
+
+// Responsive typography sizes using Bootstrap mixins for the media querries
+html {
+  font-size: 18px;
+}
+
+// @include media-breakpoint-up(sm) {
+//   html {
+//     font-size: 16px;
+//   }
+// }
+//
+// @include media-breakpoint-up(md) {
+//   html {
+//     font-size: 20px;
+//   }
+// }
+//
+// @include media-breakpoint-up(lg) {
+//   html {
+//     font-size: 28px;
+//   }
+// }
+>>>>>>> master
