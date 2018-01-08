@@ -25,18 +25,15 @@ $light-grey: #EFEFEF;
   }
 }
 
-// .course-info{
-// margin-top: 100px;
-// }
-
-.prof-card{margin-bottom: 120px;}
-.course-info{margin-top: 100px;}
-
+.prof-card{
+margin-top: -100px;
+}
 
 .prof-card, .course-info{
   background-color: white;
   text-align: left;
   margin: 20px 0 20px 0 ;
+  margin-top: 100px;
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   h1{font-family: 'Roboto', sans-serif; font-weight: 600; font-size: 35px; color: $orange;margin:15px 0 20px 0;}
@@ -68,26 +65,6 @@ $light-grey: #EFEFEF;
   cursor: pointer;
 }
 
-// body{
-//   position: relative;
-// }
-// .footer{
-//   background: $orange;
-//   position: absolute;
-//  right: 0;
-//  bottom: 0;
-//  left: 0;
-//  padding: 1rem;
-//  text-align: center;
-//  color: white;
-//  font-size: 15px;
-// }
-//
-// .social-media-links i{
-//   color: white;
-//   font-size: 25px;
-//   text-decoration: none;
-// }
 
 @include media-breakpoint-up(sm) {
 
@@ -100,7 +77,7 @@ $light-grey: #EFEFEF;
   }
 
 .prof-card, .course-info{
-  margin-bottom: 120px;
+  margin-bottom: 30px;
   margin-top: 100px;
 }
  }
