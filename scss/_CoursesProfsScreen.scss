@@ -5,7 +5,13 @@ $off-white: #FFFFEA;
 $dark-grey: #303337;
 $light-grey: #EFEFEF;
 
-.container-fluid {
+
+.navbar {
+  background-color: $dark-grey;
+}
+
+
+  .container-fluid {
   background-color: $light-grey;
 
   .prof-card-info, .course-info-content{
@@ -19,14 +25,17 @@ $light-grey: #EFEFEF;
   }
 }
 
-
+.prof-card{
+margin-top: -100px;
+}
 
 .prof-card, .course-info{
   background-color: white;
   text-align: left;
   margin: 20px 0 20px 0 ;
+  margin-top: 100px;
   border-radius: 5px;
-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   h1{font-family: 'Roboto', sans-serif; font-weight: 600; font-size: 35px; color: $orange;margin:15px 0 20px 0;}
   h2{font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 23px; color: $sage; margin:20px 0 10px 0;}
   h3{font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 18px; color: black;}
@@ -57,20 +66,18 @@ box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 
-
-
-
 @include media-breakpoint-up(sm) {
 
   .prof-card{
-    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .course-info-content{
     margin: 0px 30px;
   }
- }
 
-  // @include media-breakpoint-up(md) { ... }
-  // @include media-breakpoint-up(lg) { ... }
-  // @include media-breakpoint-up(xl) { ... }
+.prof-card, .course-info{
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+ }
